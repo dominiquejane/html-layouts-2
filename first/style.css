@@ -1,0 +1,115 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 5px;
+
+}
+
+p {
+	text-align: left;
+}
+
+.trio {
+	height: calc(100%/6);
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+.split {
+	height: 100%;
+	width: calc(100%/3 - 10px);
+	float: left;
+	margin: 0 5px;
+
+}
+
+#red-trio {
+	background-color: red;
+}
+
+#blue-trio {
+	background-color: blue;
+}
+
+
+#black-trio {
+	background-color: black;
+}
+
+.text {
+	width: 100% -30px;
+	height: calc(100%/3)%;
+	overflow: auto;
+	text-align: center;
+	margin: 15px 15px;
+	min-height: 200px;
+	max-height:350px;
+}
+
+.duo {
+	width: 100%;
+	height: 30%;
+	margin: 0 5px;
+}
+
+#red-duo {
+	height: 100%;
+	width:30%;
+	background-color: red;
+	float:left;
+
+}
+
+#blue-duo {
+	height: 100%;
+	width:70%;
+	background-color: blue;
+	float: left;
+}
+
+.quad {
+	width: 100%;
+	height: 100px;
+	margin: 10px 5px;
+}
+
+#blue-quad {
+	height: 100%;
+	width: 60%;
+	float: left;
+	background-color: blue;
+}
+
+#red-quad {
+	height: 100%;
+	width:30%;
+	background-color: red;
+	float: left;
+}
+
+#black-quad1, #black-quad2 {
+	height: 100%;
+	width: 5%;
+	background-color: black;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
